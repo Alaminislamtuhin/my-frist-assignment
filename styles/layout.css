@@ -85,8 +85,8 @@ nav li a{
     
     justify-content: space-between;
     gap: 45px;
-    padding: 180px;
-    max-width: 580px;
+    padding:180px;
+    max-width:580px;
 
     
 }
@@ -97,8 +97,12 @@ nav li a{
    
  }
  .section-description{
-    color: #252432;
+    color:#6c698a;
     margin: 20px;
+    font-size: 20px;
+ }
+ .img-content{
+
  }
  .img-container{
     gap: auto;
@@ -110,3 +114,41 @@ nav li a{
     height: 280px;
     text-shadow: #252432;
  }
+ /* banner-2 styles */
+.banner-2{
+    background-color: antiquewhite;
+    background-position: 50%;
+    padding: 0px aotu;
+    margin: 50px 450px;
+    height: 306px;
+    gap: 5px;
+   
+
+}
+.banner-2-container{
+    font-weight: bold;
+    font-size: 38px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.banner-2-content{
+    gap: 5px;
+   
+
+}
+.banner-2-description{
+     font-weight: bold;
+    font-size: 80px;
+    color: #000000;
+}
+.banner-2-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 158px;
+}
