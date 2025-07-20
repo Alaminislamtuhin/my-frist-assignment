@@ -6,8 +6,11 @@
     "wdth" 100;
 }
 /* shared styles */
-.main-body{
-    background-image: url(../Assets/Hero-bg.png);
+
+.main-header{
+     background-image: url(../Assets/Hero-bg.png);
+     max-width: 1140px;
+    margin: 0 auto;
 }
 
 
@@ -19,6 +22,11 @@ nav{
     margin: 50px;
     font-size: 40px;
     text-align: center;
+    align-items: center;
+     background-image: url(../Assets/Hero-bg.png);
+    max-width: 1140px;
+    margin: 0 auto;
+    
 }
 .section-title{
     color:#4E47FF;
@@ -33,28 +41,72 @@ nav li a{
 .btn-primary{
     background-color: #4E47FF;
     color:#FFFFFF;
-    
+     font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
 }
-/* hover effect */
-.bnt-primary:hover{
-    background-color:#2980b9;
-}
-/* div styles */
-
-
+ .bnt-primary:hover{
+    background-color: #4E47FF;
+     }
 
 /* banner styles */
 .banner{
-    gap: 37px;
-    padding: 200px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    padding: 150px;
+    display: flex;
 
 }
 .banner-content{
+     text-align: center;
     color: #252432;
     font-weight: 905;
-    font-size: 25px;
-    text-align: center;
+    font-size: 30px;
     height: 237px;
     max-width: 560px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 37px;
 }
+/* action styles */
+.section-content{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-container{
+    
+    justify-content: space-between;
+    gap: 45px;
+    padding: 180px;
+    max-width: 580px;
+
+    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+   
+ }
+ .section-description{
+    color: #252432;
+    margin: 20px;
+ }
+ .img-container{
+    gap: auto;
+    padding: 140px;
+    border: #252432;
+    border-;
+    border-radius: 48px;
+    width: 380px;
+    height: 280px;
+    text-shadow: #252432;
+ }
