@@ -10,7 +10,7 @@
 .main-header{
      background-image: url(../Assets/Hero-bg.png);
      max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto
 }
 
 
@@ -25,7 +25,8 @@ nav{
     align-items: center;
      background-image: url(../Assets/Hero-bg.png);
     max-width: 1140px;
-    margin: 0 auto;
+    
+   
     
 }
 .section-title{
@@ -78,6 +79,7 @@ nav li a{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin: 40px 300px;
 }
 
 
@@ -117,12 +119,17 @@ nav li a{
  /* banner-2 styles */
 .banner-2{
     background-color: antiquewhite;
-    background-position: 50%;
-    padding: 0px aotu;
-    margin: 50px 450px;
+    padding:40px 0px;
+    margin: 40px 300px ;
     height: 306px;
-    gap: 5px;
-   
+    gap: 5px; 
+    height: 270px;
+    margin-bottom: 10px;
+    line-height: 7px;
+    max-width: 100%;
+
+    
+  
 
 }
 .banner-2-container{
@@ -131,8 +138,8 @@ nav li a{
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 20px;
-
+    gap: none;
+   margin-bottom: 10px;
 
 }
 .banner-2-content{
@@ -143,7 +150,7 @@ nav li a{
 .banner-2-description{
      font-weight: bold;
     font-size: 80px;
-    color: #000000;
+    color: #4E47FF;
 }
 .banner-2-content{
     display: flex;
@@ -152,3 +159,57 @@ nav li a{
     align-items: center;
     gap: 158px;
 }
+.content-heading{
+    color: #252432;
+}
+.banner-2-paragraph{
+    color: #000000;
+
+}
+/* productive styles */
+.content-box{
+
+}
+.content-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 45px;
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+.layout-grid{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+.main-area{
+    margin: 20px;
+    background-color:#F2EDED ;
+    padding: 28px;
+}
+.info-heading{
+    color: #1E1E1E;
+    font-size: 24px;
+}
+.text-muted{
+    color: #1E1E1E;
+    font-size: 15px;
+    
+ }
+ .icon-img{
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+
+ }
+ .row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
