@@ -9,7 +9,7 @@
 
 .main-header{
      background-image: url(../Assets/Hero-bg.png);
-     width: 1140px;
+     width: 1440px;
      height: 698px;
      gap: 158px;
 
@@ -49,8 +49,9 @@ nav li a{
     border-radius: 5px;
     font-size: 20px;
     border: none;
-    width: 120px;
-    height: 25px;
+   width: 229px;
+   height: 48px;
+    margin: 10px ;
 }
  .btn-primary:hover{
     background-color: red;
@@ -125,13 +126,14 @@ nav li a{
 .banner-2{
     background-color: antiquewhite;
     padding:40px 0px;
-    margin: 40px 300px ;
+    margin: 10px 60px ;
     height: 306px;
     gap: 5px; 
     height: 270px;
     margin-bottom: 10px;
     line-height: 7px;
     max-width: 100%;
+    
 
     
   
@@ -221,7 +223,7 @@ nav li a{
  /* form style */
  .bio-section{
     width: 740px;
-    height: 297px;
+    height: 47px;
     font-weight: bold;
     font-size: 97px;
  }
@@ -256,7 +258,7 @@ nav li a{
     border-radius: 5px;
     font-size: 20px;
     border: none;
-    width: 520px;
+    width: 297px;
     height: 62px;
 
  }
@@ -264,15 +266,15 @@ nav li a{
     background-color: orangered;
  }
  .form-body{
-    width: 497px;
-    height: 70px;
+    width: 297px;
+    height: 40px;
     padding: 12px 10px;
     border-radius: 10px;
     gap: 10px;
  }
  .message-tools{
-    width: 497px;
-    height: 170px;
+    width: 297px;
+    height: 70px;
     padding: 12px 10px;
     gap: 10px;
     border-radius: 10px;
