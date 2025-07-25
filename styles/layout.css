@@ -52,8 +52,8 @@ nav li a{
     width: 120px;
     height: 25px;
 }
- .bnt-primary:hover{
-    background-color: #4E47FF;
+ .btn-primary:hover{
+    background-color: red;
      }
 
 /* banner styles */
@@ -240,8 +240,9 @@ nav li a{
  }
  
  .profile-card{
+    font-weight: bold;
     font-size: 18px;
-    font-weight:normal;
+    
     gap: 10px;
  }
  .profile-box{ 
@@ -259,6 +260,9 @@ nav li a{
     height: 62px;
 
  }
+ .btn-secondary:hover{
+    background-color: orangered;
+ }
  .form-body{
     width: 497px;
     height: 70px;
@@ -272,4 +276,10 @@ nav li a{
     padding: 12px 10px;
     gap: 10px;
     border-radius: 10px;
+ }
+ .message-card{
+      font-weight: bold;
+    font-size: 18px;
+    
+    gap: 10px;
  }
