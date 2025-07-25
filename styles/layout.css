@@ -9,7 +9,10 @@
 
 .main-header{
      background-image: url(../Assets/Hero-bg.png);
-     max-width: 1140px;
+     width: 1140px;
+     height: 698px;
+     gap: 158px;
+
     margin: 0px auto
 }
 
