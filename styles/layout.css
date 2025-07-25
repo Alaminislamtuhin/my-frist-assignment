@@ -46,6 +46,8 @@ nav li a{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    width: 120px;
+    height: 25px;
 }
  .bnt-primary:hover{
     background-color: #4E47FF;
@@ -212,4 +214,59 @@ nav li a{
     display: flex;
     align-items: center;
     gap: 10px;
+ }
+ /* form style */
+ .bio-section{
+    width: 740px;
+    height: 297px;
+    font-weight: bold;
+    font-size: 97px;
+ }
+ .form-group{
+   
+    
+
+ }
+ .flex-row{
+ display: flex;
+ justify-content: space-around;
+ padding: 71px;
+ }
+ .bio-section{
+
+ }
+ 
+ .profile-card{
+    font-size: 18px;
+    font-weight:normal;
+    gap: 10px;
+ }
+ .profile-box{ 
+
+    
+ }
+ .btn-secondary{
+     background-color: #4E47FF;
+    color:#FFFFFF;
+     font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    width: 520px;
+    height: 62px;
+
+ }
+ .form-body{
+    width: 497px;
+    height: 70px;
+    padding: 12px 10px;
+    border-radius: 10px;
+    gap: 10px;
+ }
+ .message-tools{
+    width: 497px;
+    height: 170px;
+    padding: 12px 10px;
+    gap: 10px;
+    border-radius: 10px;
  }
